@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-Staff</title>
+    <link rel="icon" href="images/000.png" type="image/png" />
+    <script
+      src="https://kit.fontawesome.com/5f5b65293b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    body {
+  /* background: linear-gradient(
+    50deg,
+    #09037beb,
+    #000000,
+    #020a60,
+    #081735,
+    #000000
+  ); */
+  background-image: url(images/cssicon.png);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  background: linear-gradient(50deg, #b0b3d2, #000000);
+  width: 400px;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px #0011fa;
+  z-index: 3;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+nav a {
+  color: #f9f9f9;
+}
+nav a:hover:not(.active) {
+  color: #0008ff;
+  font-size: 1.1em;
+}
+nav a.active {
+  color: #1d04da;
+}
+/* end of navbar */
+.staff1 {
+  border: 2px solid #010eff;
+  width: 302px;
+  height: 320px;
+  margin-top: 100px;
+  float: left;
+  position: relative;
+  margin-right: 10px;
+  box-shadow: 3px 5px 10px #000000;
+  background-color: #0008ff;
+  border-radius: 10px;
+}
+.s1 {
+  position: relative;
+  width: 300px;
+  height: 260px;
+  border: 2px solid #0033ff;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.staff1 p {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.is1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+h1 {
+  color: rgb(0, 34, 255);
+  text-decoration:overline;
+}
+
+.foot {
+  position: fixed;
+  bottom: -270px;
+  left: 0;
+  color: aliceblue;
+  display: flex;
+  border-width: 100%;
+  padding: 10px;
+  transition: 0.5s ease-in-out;
+  border: transparent;
+  box-shadow: 0 0 10px #1a24df;
+  background-color: #020a60c1;
+  width: 100%;
+}
+
+.foot:hover {
+  bottom: 0;
+  border-top: 3px solid white;
+  backdrop-filter: blur(20px);
+}
+
+.fcont {
+  position: relative;
+  z-index: 1;
+}
+.others li {
+  display: block;
+}
+.others a {
+  text-decoration: none;
+  color: rgb(241, 1, 1);
+  font-size: 18px;
+}
+#copy {
+  text-align: center;
+  color: rgb(176, 162, 162);
+  font-size: 15px;
+}
+a:hover{
+  color:chartreuse;
+
+}
+p::selection{
+  color: rgb(0, 13, 255);
+  background-color: #000000;
+}
+
+
+
+  </style>
+  <body>
+    <nav>
+      <ul>
+        <a href="home.html"><li><i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i></li></a>
+        <a href="about.html"><li>about</li></a>
+        <a href="calender.html"><li>calender</li></a>
+        <a href="staff.html" class="active"><li>staff</li></a>
+        <a href="library.html"><li>library</li></a>
+      </ul>
+    </nav>
+
+    <h1>Head Of Department</h1>
+    <p>Prof. James B. Hayfron-Aquah</p>
+    <h1>Exams Officer</h1>
+    <p>Dr. Kwabena Owusu-Agyemang</p>
+
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/1.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>prof. james b. hayfron-aquah</p>
+    </div>
+
+    <p style="padding-top: 100px; color: #000000">
+      Prof James B. Hayfron-Acquah is the Head of the Department of Computer
+      Science. He had his first degree from the Kwame Nkrumah University of
+      Science and Technology (KNUST) in Computer Science in the year 1991. He
+      then proceeded to have his Master degree at the Shanghai University of
+      Science and Technology (SUST), Shanghai-China in Computer Science and
+      Application in 1996. He obtained his PhD in 2003 from Southampton
+      University in the UK. He joined KNUST in March 1996 as a lecturer. He was
+      promoted to a Senior Lecturer in the year 2004 and to Associate Professor
+      in 2015. Since joining KNUST, he has been a Head of Department
+      cumulatively for about a decade and has served on several university
+      committees. His research interest area includes Image Processing, Gait
+      Recognition (Biometrics), Computer Programming, Cloud computing, etc. He
+      has so far graduated six PhD holders over the past five (5) years and
+      several MSC/MPhil students. He is currently supervising several
+      postgraduate students. He has several publications to his credit. Some of
+      his awards include but not limited to the Emerald Highly Recommended
+      Award, 2004 for the publication: Nixon, M. S. J. N. Carter, M. G. Grant,
+      L. Gordon and Hayfron – Acquah, J. B, Automatic Recognition by Gait:
+      progress and prospects. Sensor Review, 24(3), pp. 323 – 331, 2003.
+      Commonwealth Scholarship, 1999-2003, administered by the scholarship
+      secretariat, Accra to pursue a Doctorate programme in Computer Science at
+      the University of Southampton, Southampton -United Kingdom, Ghana – China
+      government scholarship, 1993-1996 administered by Scholarship Secretariat,
+      Accra to pursue Master’s degree programme in Computer Science at the
+      Shanghai University of Science and Technology, Shanghai-China. Some of his
+      achievements are:Consultant for the National Accreditation Board on
+      Programme Accreditation in Computer Science and related programmes since
+      2004. Has also been involved with Academic Auditing of Tertiary
+      Institutions in the country. United Nations Development Programme
+      (UNDP-Ghana) on Implementing a Computerised National Firearms Registry
+      System Software (Contract Number 2007/SSA/000106) Member, Assessment of
+      conversion of Accra, Cape Coast and Takoradi Polytechnics into Technical
+      Universities Member of a 4-member committee that developed a proposal for
+      UNESCO-HEWLETT PACKARD PROJECT, March-June 2017 Member of a 4-member
+      sub-committee on Exhibition of the 1st African Regional Conference of
+      Vice-Chancellor, Provosts, and Deans of Science, Engineering, and
+      Technology: (COVIDSET 2005), Oct – Nov. 2005 He worked with other members
+      from the Engineering Department of KNUST in handling the Y2K problem for
+      the Electricity Company of Ghana. Associations/Affiliations (Contribution
+      and Current Position): The British Machine Vision Association United
+      Kingdom
+    </p>
+
+    <br />
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/2.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>dr.(mrs.) rose-mary owusuaa mensah gyening</p>
+    </div>
+
+    <p style="padding-top: 100px; color: #000000">
+      Rose-Mary Owusuaa Mensah Gyening is a lecturer at the Department of
+      Computer Science. She holds BSc(Hons) in Computer Science from KNUST, MSc
+      Computer Science from Rheinische Friedrich-Wilhelms-Universität Bonn. She
+      holds PhD Computer Science from KNUST. She has keen interest in machine
+      learning, robotics and IoT, human Computer Interaction and Cybersecurity.
+      From 2016 to July 2020, She was a lecturer at the Department of Computer
+      Science, Garden City University College where she taught courses such as
+      Computer Security and Cryptography, Datacenter Administration, Distributed
+      Computing, Fundamentals of Computing, Computer Professional Ethics and
+      Database Management Systems. She also served as the ICT Coordinator,
+      Garden City University College, Kumasi and was responsible for the
+      introduction of new IT related courses and supervision of the teaching of
+      CCNA and computer proficiency programs. She has supervised several
+      undergraduate theses and now supervising masters students as well. Due to
+      her passion for robotics and the Internet of things, she has undertaken
+      many projects and supervised students in this area. Notable among them
+      are: RoCA, a humanoid assistive technology for children with Autism, IoT
+      Based Soil Moisture, Temperature and Humidity Measuring System for
+      Farmers, Smart home, Automatic Water Pumping Systems, Smart Weather
+      Monitoring System and Solar Tracking System. is currently a member of the
+      following professional bodies: Ghana Science Association Women In Science,
+      Technology, Engineering and Mathematics Ghana (WiSTEM GH) IAENG Society of
+      Artificial Intelligence, IAENG Society of Computer Science, IAENG Society
+      of Internet Computing and Web Service, IAENG Society of Information System
+      Engineering and IAENG Society of Software Engineering.
+    </p>
+
+    <br /><br /><br /><br /><br /><br /><br />
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/11.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>prof.Najim ussiph</p>
+    </div>
+
+    <p style="padding-top: 100px; color: #000000">
+      I hold B.Sc and M.Sc degrees in Computer Science from University of
+      Ibadan, Ibadan, Nigeria (1987 and 1993 respectively) and Ph.D from The
+      University of Salford, Manchester (2015). I have over 15 years of
+      experience in teaching and research at Polytechnic and University level. I
+      have been a Faculty member in the Department of Computer Science, Kwame
+      Nkrumah University of Science and Technology, Kumasi since April, 2001 and
+      have taught several courses at both undergraduate and graduate levels. The
+      courses I have taught include Operating Systems, Advance Programming With
+      Visual Basic, Advance Programming With C++, Software Engineering,
+      Management Information Systems, Decision Support Systems Database Concepts
+      and Applications and Internet Technologies, Computer Graphics and Human
+      Computer Interactions. I have supervised more than 60 final-year
+      undergraduate projects and more than 25 M.Sc and M.Phil theses. My primary
+      research areas include Management information Systems IT Management in
+      Organizations Decision Support Systems Human Computer Interaction Software
+      Engineering Virtual Learning Environment E-Learning Enterprise Knowledge
+      Management Application of Social Media in Education and Business My Ph.D
+      research and thesis was on Using Virtual Learning Environment to Support
+      Teaching and Learning and Bridging Digital Divide Between Urban and Rural
+      Communities in Ghana, a topic around which I have made about 8
+      presentations at International Conferences and refereed publications in
+      International journals. Details of these are listed in the publication
+      section. I subscribe to the Constructivism and Connectivism philosophies
+      of teaching and the Interpretivism research paradigm.
+    </p>
+    <br /><br /><br /><br /><br /><br /><br />
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/4.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>dr. kwabena owusu-agyemang</p>
+    </div>
+
+    <p style="padding-top: 100px; color: #000000">
+      Kwabena Owusu-Agyemang is a Lecturer at the Department of Computer Science
+      with research and professional experience in machine learning and
+      blockchain technology. He obtained his Doctoral degree in Software
+      Engineering with specialization in Machine Learning and master’s degree in
+      Information Technology Management from Coventry University. As an
+      accomplished educator and machine learning engineer, He possess a strong
+      drive to utilize state-of-the-art technologies in order to advance
+      research and foster innovation. His proficiency lies in the application of
+      machine learning algorithms and techniques to tackle intricate problems
+      across various domains. He has demonstrated expertise in creating and
+      implementing data-driven solutions that optimize performance and improve
+      decision-making processes. He is dedicated to creating a collaborative and
+      engaging learning environment that prioritizes academic excellence and
+      real-world application. Throughout His career, He has an established
+      record of publishing influential research papers, delivering impactful
+      lectures, and leading successful interdisciplinary projects. He excels at
+      effectively communicating complex concepts to students, colleagues, and
+      professionals in the industry. Despite his many achievements, Kwabena
+      remains humble and dedicated to his work. He continues to be an active
+      researcher and is always looking for new ways to advance the field of
+      machine learning and improve the understanding of the models and its
+      application in the industry. Email Address :<a
+        href="mailto: kwabenaoa@knust.edu.gh"
+      >
+        kwabenaoa@knust.edu.gh</a
+      >
+    </p>
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/5.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>dr. emmanuel ahene</p>
+    </div>
+
+    <p style="padding-top: 100px; color: #000000">
+      Emmanuel Ahene is a lecturer at the Department of Computer Science and the
+      Co-Founder of Cyberpass Consult, specializing in cyber security and
+      machine learning. He obtained his doctoral and master's degrees in
+      Computer Science and Technology in 2019 and 2016, respectively. His
+      research extends to developing innovative technologies that harness the
+      power of cyber security and machine learning to address critical
+      challenges such as Cyber-attack Detection, equal access to Healthcare and
+      Education. Heading a virtual research lab, Dr Ahene leads research in
+      Secure AI for sustainable solutions, with the ultimate goal of deploying
+      secure machine learning models that positively impact human life. His
+      ongoing efforts have led to more than 20 research articles published in
+      high-impact journals, successful supervision of one (1) Ph.D. candidate,
+      five (5) MPhil candidates, seven (7) MSc. Students and more than forty
+      (40) Final year undergraduate projects. He currently serves as the PI for
+      the SignTalk project. The outcome of the SignTalk project will be a secure
+      deep learning model that will enhance doctor-to-patient conversation in
+      Ghana for speech and hearing-impaired folks. In addition, he serves is the
+      PI for the Deep Learning for food sustainability project and also serves
+      as the CO-PI for the MESTI mHealth Project for inclusive and secure health
+      systems. In 2023, he received the Vice Chancellors award for creativity
+      and innovation in KNUST, Ghana. As an advocate for building human
+      capacity, Dr Ahene has provided hands-on training programs for IT
+      professionals in public and private institutions. His efforts have
+      impacted more than 300 IT professionals nationwide. Within the academic
+      community, he serves as the Guest Editor for two special issues: Special
+      Issue on Security and Reliability in Future Intelligent Mobile
+      Communication, Computer Communications, Elsevier and Special Issue on
+      Frontiers in Cyber Security, Journal of Systems Architecture, Elsevier. He
+      served as the program committee chair for the international conference on
+      "Frontiers in Cyber Security" in December, 2022 He is a reviewer for
+      several high-impact journals, including IEEE Internet of Things, IEEE
+      Systems Journal, IEEE Transactions on Computers, IEEE Access, Computers
+      and Electrical Engineering (Elsevier), KSII Transactions on Internet &
+      Information Systems and has received awards as an outstanding reviewer
+      from reputable journals, such as KSII Transactions on Internet &
+      Information Systems (2020) and Computers and Electrical Engineering,
+      Elsevier (2017). He is a member of IEEE, GSA, and the KNUST Young
+      Researcher’s Forum, demonstrating his commitment to continuous learning
+      and collaboration within the academic community. He has given talks at
+      international and local conferences on cyber security and AI in several
+      Asian and African countries.
+    </p>
+    <br /><br /><br />
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/6.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>dr. dominic asamoah</p>
+    </div>
+
+    <p style="padding-top: 100px; color: #000000">
+      Dr. Dominic Asamoah received his B.Sc. (Hons) degree in Computer Science
+      and MPhil Computer Science in 1986, and 2010 respectively. He Joined the
+      department of Computer Science in 2002. He completed his PhD in Computer
+      Science from KNUST, Ghana, in 2017 with specialization in Computer
+      Visions. He is currently a SENIOR LECTURER at the Department of Computer
+      Science, KNUST. Prior to his appointment as Lecturer at KNUST, Dr. Dominic
+      Asamoah worked as Systems Analyst and Programmer in a lot of Computer
+      Firms both home and abroad. He was a consultant. In the field of computing
+      and security. Dr. Asamoah also worked as Systems Administrator and
+      Business Analyst with AMMES INT. in UK. After joining KNUST, he studied
+      Advance Computing in South West University – Nanjing in China. Dr. Dominic
+      Asamoah worked as a Computer Consultant in the corporate for about sixteen
+      years before joining the academia. His areas of research interest include
+      Computer Visions, Computer and Data Security, Cloud Computing, Imaging,
+      Artificial Intelligence, Computer Architecture and, Computer Programming
+      and Algorithm Development.
+    </p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/7.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>dr. gaddafi abdul salaam</p>
+    </div>
+
+    <p style="padding-top: 100px; color: #000000">
+      Gaddafi Abdul-Salaam received the Ph.D. degree from the Universiti
+      Teknologi Malaysia, Johor, Malaysia in 2017. He received his M.Sc. degree
+      in Advanced ICT studies from the Institute for Advanced ICT Studies, Ghana
+      in 2009, and B.Sc. degree in Computer Engineering from the Kwame Nkrumah
+      University of Science and Technology (KNUST), Ghana in 2005. He was also
+      head of the ICT Centre in KNUST from 2010–2013. He is currently a senior
+      lecturer at the Department of Computer Science in KNUST, Ghana. His
+      research interests include Wireless Sensor Networks, hybrid WSNs and
+      Mobile Ad hoc Networks, Network Protocols, Network Algorithms, Ad Hoc
+      Networks.
+    </p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/8i.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>prof. micheal asante</p>
+    </div>
+    <p style="padding-top: 100px; color: #000000">
+      Professor Michael Asante is currently a professor in Computer Science at
+      the department of Computer Science at the Kwame Nkrumah University of
+      Science and technology,Kumasi,Ghana. he had his primary and Middle school
+      education form 1970-1975 and 1975-1977 at the Bekwai- Ashanti, SDA Primary
+      and Middle school respectively.He then proceeded to the Obuasi
+      Secondary-Technical School from 1977-1982 and 1983- 1985 for his General
+      Certificate Examination Ordinary and Advanced Levels organized by the West
+      Afriiucan Examination Council (WAEC) He did his national Service from
+      1985-1986. From 1987 he then proceeded to the Tarkwa School of Mines to
+      undertake a three-Year course in Mineral Survey aand completed in 1990. He
+      enrolled at the London South Bank University, United Kingdom, from
+      1992-1994 where he obtained a MSc degree in Scientific
+      Computing/scientific Information Technology. Then from 2003-2007,he
+      persued his PhD in Systems Engineering at the University of Reading
+      ,United Kingdom.
+    </p>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/9.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>prof. yaw marfo missah</p>
+    </div>
+
+    <p style="padding-top: 100px; color: #000000">
+      Yaw Marfo Missah is a computer scientist who has dedicated his career to
+      the advancement of Artificial Intelligence research. Over the past years,
+      I have been actively involved in conducting research in the field of
+      Artificial Intelligence. I am passionate about the value of computer
+      science, especially artificial intelligence (AI) thinking and the use of
+      AI techniques to improve all aspects of life. In research, I collaborate
+      with other scientists from engineering, mathematics, food science, and
+      Public health experts. My passion is to make students understand the core
+      subject of artificial intelligence and its applications.
+    </p>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr />
+
+    <div class="staff1">
+      <div class="s1">
+        <img src="/images/10.jpg" alt="prof" class="is1" />
+      </div>
+
+      <p>prof. frimpong twum</p>
+    </div>
+
+    <p style="padding-top: 100px; color: rgb(0, 0, 0)">
+      Prof. Frimpong Twum (Ph.D) received his B.Sc. (Hons) degree in Electrical
+      and Electronic Engineering and MSc. Internet and Multimedia Engineering
+      from London South Bank University in 2004, and 2007 respectively. He also
+      received MSc. Degree in Information System from Roehampton University,
+      London in 2011. He completed his Ph.D in Computer Science from Kwame
+      Nkumah University of Science and Technology (KNUST), Ghana, in 2017 with
+      specialization in Computer Security. He is currently ASSOCIATE PROFESSOR
+      OF COMPUTER SCIENCE at the Department of Computer Science, College of
+      Science, KNUST. Ghana's Premier Science and Technology University in
+      KUMASI, and the Number 1 University in the world for the provision of
+      quality education (SDG 4) - [Source - Times Higher Education Impact
+      Ranking (1st June, 2023)] . Prof. Twum is a committed, highly skilled,
+      motivated, hardworking, and technically competent professional with
+      passion for knowledge acquisition and dissemination in the field of
+      computer science especially computer network security, machine learning,
+      and cloud computing. His long-term goal is to help improve life by finding
+      solutions to problems using knowledge acquired in these fields. He is
+      effective communicator at all levels and a team player in dealing with
+      technical/non-technical issues with proven organizational and people
+      skills. Prof. Twum has several papers to his credit in credible journals
+      including PLOS ONE, HINDAWI, KSII TIIS, MDPI Sensors, IEEE access,
+      SPRINGER, Informatica (Slovenia) and Journal of Computer Science. His
+      articles have global reach with over 200 Google Scholar citations. Prior
+      to his appointment at KNUST, he worked as a Lecturer and Systems Engineer
+      at Roehampton University in London. He also worked as Systems
+      Administrator and Business Analyst at PC World, UK. Prof. Twum also worked
+      as a Computer Technician at Council for Scientific and Industrial Research
+      (CSIR) - Crops Research Institute (CRI). His areas of research interest
+      include Computer Networks, Computer and Data Security, Cloud Computing,
+      Computer Vision and Machine Learning, Image Processing, Software
+      Engineering, Computer Programming and Algorithms. In addition, Prof. Twum
+      has rendered many international services including: Editorial Advisory
+      Board Member for African Union (AU) – Africa Centre for Study and Research
+      on Terrorism, WASSCE Elective ICT Examiner for West African Examinations
+      Council (WAEC), WAEC Moderating Committee Member, and a reviewer for; IEEE
+      ACCESS, Academia Letters, Science Publishing Group (SciencePG):
+      International Journal of Sustainability Management and Information
+      Technologies, INDERSCIENCE - International Journal of Information and
+      Computer Security (IJICS) and International Journal of Advanced Computer
+      Science and Applications (IJCSA). Prof. Twum has been an Invited Speaker
+      to the 2nd Global Summit on Electronics & Electrical Engineering
+      (GSEEE2022) in Chicago, USA. Prof. Twum has served on many national
+      organizations as member or chairman including; National Accreditation
+      Board (now, Ghana Tertiary Education Commission (GTEC)), West African
+      Examinations Council (WAEC), and Internet Society, Ghana Chapter. He is
+      External Examiner for Computer Science and Information Technology
+      programmes for Ghana Communications Technology University, Garden City
+      University College, Takoradi Technical University, and Tamale Technical
+      University. Prof. Twum has served as an interview panel member for
+      recruitment of lectures for computer science, Information Technology and
+      related programmes for many institutions and has also been nominated
+      severally by other universities as an external assessor for assessment of
+      promotion document to senior lecturer of computer science, Information
+      Technology and related programmes. Prof. Twum was appointed as examiner
+      and subject expert for ICT by the National Teaching Council (NTC) to
+      design, review and set questions for the teachers licensure examinations
+      in Ghana. Prof. Twum has also served as resource person for the Ghana
+      Science Association Science (GSA) workshop for Science Technology
+      Engineering and Mathematics (STEM) teachers on many occasions.
+    </p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr />
+
+    <p style="text-align: center; text-transform: uppercase; color: rgb(21, 0, 255)">
+      for more information on our staff,click the link below 👇:<br /><a
+        href="https://webapps.knust.edu.gh/staff/dirsearch/profile/positions/eff5d2f8b40c.html"
+        style="color: brown"
+        >here</a
+      >
+    </p><br><br><br><br><br><br>
+
+    <footer class="foot">
+      <div class="fcont">
+        <ul class="others">
+          <h3>OTHERS</h3>
+          <li>
+            <a
+              href="https://cos.knust.edu.gh/"
+              style="text-decoration: underline"
+              >🏬College Of Science,KNUST
+            </a>
+          </li>
+          <br />
+          <li>
+            <a href="admission.html" style="text-decoration: underline"
+              >Admission Guide
+            </a>
+          </li>
+          <br />
+          <hr>
+          <p>Follow Us On</p>
+          <li>
+            <a href="https://www.instagram.com/thecssknust"
+              ><img src="images/5555.png" alt=""
+            /></a>
+            <a href="https://twitter.com/thecssknust"
+              ><img src="images/3333.png" alt=""
+            /></a>
+          </li>
+        </ul>
+
+        <p id="copy">
+          &copy;2024 Department of Computer Science,KNUST,Kumasi,Ghana |
+          Developed by Asare Patrick
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

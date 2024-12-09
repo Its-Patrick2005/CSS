@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cSS-Admission Guide</title>
+    <script
+      src="https://kit.fontawesome.com/5f5b65293b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel=" icon" href="images/000.png" type="image/png" />
+  </head>
+  <style>
+    body {
+  text-align: center;
+  background: linear-gradient(
+    50deg,
+    #09037beb,
+    #000000,
+    #f0f0f2,
+    #081735,
+    #000000
+  );
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  background: linear-gradient(50deg, #ffffff, #1e1c7c);
+  width: 200px;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px #0011fa;
+  z-index: 3;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+nav a {
+  color: #f9f9f9;
+}
+nav a:hover:not(.active) {
+  color: #0008ff;
+  font-size: 1.1em;
+}
+/* end of nav bar */
+
+main {
+  margin: 40px;
+  margin-top: 100px;
+  border: 2px solid #000000;
+  padding: 20px;
+  background-image: url("images/cssicon.png");
+  box-shadow: 3px 3px 5px #0008ff;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  border: 3px solid #0062ff;
+  padding: 10px;
+  background-color: #000;
+  color: #f9f9f9;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p {
+  font-size: 20px;
+  color: #f9f9f9;
+}
+
+.TC {
+  border: 2px solid #000;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 4px #000;
+  background-color: #0008ff;
+}
+.distance {
+  border: 2px solid #0062ff;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(10, 17, 84);
+  box-shadow: 2px 2px 4px #000;
+}
+.text {
+  font-size: 19px;
+  color: #f9f9f9;
+}
+button {
+  background-color: #f5cf0f;
+  color: #ef0404;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+}
+button:hover{
+    background-color: #ef0404;
+    color: #f5cf0f;
+}
+
+
+  </style>
+  <body>
+    <nav>
+      <ul>
+        <a href="home.html"><li><i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i></li></a>
+      </ul>
+    </nav>
+    <main>
+      <h1>undergraduate</h1>
+
+      <div>
+        <div class="TC">
+          <p>BSc(Hons)</p>
+          <p>
+            Computer Science(Parallel)
+            <button id="myb1">Click to read more</button>
+          </p>
+        </div>
+        <div id="myc1" class="hide">
+          This programme is the same as the BSc Computer Science that runs in
+          the regular mode. Regular mode is a terminology used in refering to
+          the first set of students the approved quota allows. The students are
+          taught by the same lecturers and supported by the same Technicians
+          with the same laboratories, libaries and other facilities. They also
+          have their lectures at the same time as the Regular students and in
+          some lectures they sit in the same lecture room with the regular
+          students. This programme is introduced for qualified students who
+          could not be admitted into the regular stream as a result of the quota
+          for the regular students. However, the programme is a fee paying one
+          but the fees are far lower than Ghanaian fee-paying students' fees.
+          Note that this programme is not a PART-TIME programme. The aims and
+          objectives of the parallel programme and the admission requirements
+          are the same as that of the regular programme: The aims and objective
+          for the running of the programme are as follows: The Department of
+          Computer Science offers in-depth training for students with sound
+          academic background in Mathematics and Science and who are aspiring to
+          become professionals in the field of Information Technology. The
+          primary goal of the department is to produce and provide the public
+          sector of the nation as well as private organizations and institutions
+          with world class Computer Programmers, Computer Analysts, System
+          Analysts and Management Information Specialists. The Department also
+          offers research opportunities for graduate studies with well- equipped
+          computer laboratories and other research facilities. This programme
+          opens a window for students who desire to pursue Computer Science at
+          KNUST but who cannot be admitted because of the quota for the regular
+          stream
+          <h2>Admission Requirements</h2>
+          <b>WASSCE:</b> <br />
+          Applicants must have credits(A1-C6) in THREE core subjects, namely
+          English, Mathematics and Integrated Science and three elective
+          subjects including Mathematics, Physics, and either Chemistry or
+          Applied Electricity or Electronics or ICT with a total aggreate of 24
+          or better. Aggregates are computed as A1=1, B2=2, B3=3, C4=C5=C6=4. D7
+          and E8 are not acceptable. <br /><br />
+          <b>SSSCE:</b> <br />
+          Applicants must have credits (A-D) in THREE core subjects, namely
+          English, Mathematics and Integrated Science and three elective
+          subjects including Mathematics, Physics, and either Chemistry or
+          Applied Electricity or Electronics or ICT with a total aggreate of 24
+          or better. Aggregates are computed as A=1, B=2, C=3, D=4. Grade E is
+          not acceptable. <br /><br />
+          <b>A'Level candidate must have:</b> <br />
+          GCE O'level certificate with Credits in at least FIVE subjects
+          including Mathematics and English. Must also have THREE passes at the
+          Advance Level including Mathematics and Physics.
+          <br /><br />
+          <b>MATURE Candidates must</b> <br />
+          Be at least 25 years, should posses GCE O' level certificate with
+          Credits in at least FIVE subjects including English and Mathematics.
+          Possession of A' level certificate will be an added advantage. In
+          addition, candidates will be required to write an Entrance Examination
+          in Mathematics and also attend an oral interview.
+          <br /><br />
+          <b>HND Diploma holders</b> <br />
+          Applicants with Diploma/HND certificate in Computer Science, Science
+          and Engineering from any recognized university, University College
+          and/Polytechnic qualify for admission. Applicants with 2nd Class
+          (Upper Division) will be admitted to Year Two.
+        </div>
+      </div>
+      <br />
+
+      <div>
+        <div class="TC">
+          <p>BSc(hons)</p>
+          <p>Computer Science <button id="myb2">Click to read more</button></p>
+        </div>
+        <div id="myc2" class="hide">
+          The aims and objective for the running of the programme are as
+          follows: The aims and objectives of the parallel programme and the
+          admission requirements are the same as that that of the regular
+          programme: The aims and objective for the running of the programme are
+          as follows: The Department of Computer Science offers in-depth
+          training for students with sound academic background in Mathematics
+          and Science and who are aspiring to become professionals in the field
+          of Information Technology. The primary goal of the department is to
+          produce and provide the public sector of the nation as well as private
+          organizations and institutions with world class Computer Programmers,
+          Computer Analysts, System Analysts and Management Information
+          Specialists. The Department also offers research opportunities for
+          graduate studies with well- equipped computer laboratories and other
+          research facilities.
+          <h2>Admission Requirements</h2>
+          <b>WASSCE:</b><br />
+          Applicants must have credits(A1-C6) in THREE core subjects, namely
+          English, Mathematics and Integrated Science and three elective
+          subjects including Mathematics with a total aggreate of 24 or better.
+          Aggregates are computed as A1=1, B2=2, B3=3, C4=C5=C6=4. D7 and E8 are
+          not acceptable. <br /><br />
+          <b>SSSCE:</b><br />
+          Applicants must have credits (A-D) in THREE core subjects, namely
+          English, Mathematics and Integrated Science and three elective
+          subjects including Mathematics with a total aggreate of 24 or better.
+          Aggregates are computed as A=1, B=2, C=3, D=4. Grade E is not
+          acceptable.
+          <br /><br />
+          <b>A'Level candidate must have:</b><br />
+          GCE O'level certificate with Credits in at least FIVE subjects
+          including Mathematics and English. Must also have THREE passes at the
+          Advance Level including Mathematics and Physics.
+          <br /><br />
+          <b>MATURE Candidates must</b><br />
+          Be at least 25 years, should posses GCE O' level certificate with
+          Credits in at least FIVE subjects including English and Mathematics.
+          Possession of A' level certificate will be an added advantage. In
+          addition, candidates will be required to write an Entrance Examination
+          in Mathematics and also attend an oral interview.
+          <br /><br />
+          <b>HND Diploma holders</b><br />
+          Applicants with Diploma/HND certificate in Computer Science, Science
+          and Engineering from any recognized university, University College
+          and/Polytechnic qualify for admission. Applicants with 2nd Class
+          (Upper Division) will be admitted to Year Two while all others will be
+          admitted to Year One.
+        </div>
+      </div>
+      <div class="distance">
+        <h1 style="color: azure">distance programmes</h1>
+        <div class="text">
+          The Department of Computer Science through the
+          <b>Institute of Distance Learning </b> the following programmes:
+          <br /><br />
+          <b>Undergraduate:</b>
+          <br />
+          BSc Computer Science (top-up) - This is a two and half year programme
+          BSc Information Technology(Top-up): This is a two and half year
+          programme
+          <br /><br />
+          <b>Postgraduate:</b>
+          <br />
+          MSc/MPhil Health Informatics MSc/MPhil Information Technology
+        </div>
+      </div>
+
+      <h1>graduate</h1>
+
+      <div>
+        <div class="TC">
+          <p>MSc/MPhil</p>
+          <p>
+            Information Technology <button id="myb3">Click to read more</button>
+          </p>
+        </div>
+        <div id="myc3" class="hide">
+          <b>The course aims:</b>
+          <br /><br />
+
+          i. To give students an advanced understanding of and competence with,
+          the hardware and software available and/or needed for the development
+          and use of computer systems;
+          <br />ii. To educate at postgraduate level graduates from non-computer
+          science related disciplines in the specification, design and creation
+          of software-based systems customized for specific tasks and
+          applications; <br />iii. To produce Masters graduates possessing
+          awareness, knowledge and practical skills in one of the modern
+          computer science specializations (networking, multimedia, artificial
+          intelligence, human-computer interaction, software engineering,
+          database management systems). By the end of the course the students
+          will have acquired advanced critical and evaluative perspectives of
+          this discipline, together with analytical and creative problem solving
+          abilities; <br />iv. To develop the students' professional attitudes
+          and the interpersonal and entrepreneurial skills required by a
+          practitioner in industry.
+
+          <b>Admission Requirements:</b>
+          <br /><br />
+
+          Candidates must have one of the following
+          <br /><br />
+
+          A first degree with at least Second Class from an accredited
+          university in any of the following areas:
+          <br />
+          Computer Science <br />
+          Information Technology/Information Communication and Technology <br />
+          Business Information Technology <br />
+          Mathematics <br />
+          Engineering <br /><br />
+          Candidate will have to pass and Entrance Examination in various
+          subject areas in Computer Science and will also have to pass an
+          interview before admitted. Students with weak computer science
+          background, especially in programming, may be required to take extra
+          courses as may be deemed necessary by the Department.
+        </div>
+      </div>
+      <br />
+
+      <div>
+        <div class="TC">
+          <p>MSc/MPhil</p>
+          <p>Computer Science <button id="myb4">Click to read more</button></p>
+        </div>
+        <div id="myc4" class="hide">
+          <b>The course aims:</b>
+          <br /><br />
+
+          i. To give students an advanced understanding of and competence with,
+          the hardware and software available and/or needed for the development
+          and use of computer systems;
+
+          <br />ii. To educate at postgraduate level graduates from non-computer
+          science related disciplines in the specification, design and creation
+          of software-based systems customized for specific tasks and
+          applications;
+
+          <br />iii. To produce postgraduates possessing awareness, knowledge
+          and practical skills in one of the modern computer science
+          specializations (networking, human-computer interaction, software
+          engineering, database management systems). By the end of the programme
+          the students will have acquired advanced critical and evaluative
+          perspectives of this discipline, together with analytical and creative
+          problem solving abilities;
+
+          <br />iv. To develop the students' professional attitudes and the
+          interpersonal and entrepreneurial skills required by a practitioner in
+          industry.
+
+          <h2>Admission Requirements</h2>
+
+          A first degree with at least Second Class (Lower Division) from an
+          accredited university in any of the following areas: <br />
+          Computer Science <br />
+          Computer Engineering <br />
+          Software Engineering <br />
+          Telecommunication Engineering <br />
+          Information Technology with a strong background in programming <br />
+          Computer Networking/Networks <br />
+          Artificial Intelligence <br />
+          Computer Science with Mathematics <br />
+          Computer Technology <br />
+          Computer Security <br />
+          Computer Forensic <br />
+          Computer Gaming <br />
+          Mathematics <br />
+          <br />
+          Candidate will have to pass an Entrance Examination in various subject
+          areas in Computer Science and will also have to pass an interview
+          before admitted. In exceptional cases, students found to have weak
+          background in any course, especially in programming, may be required
+          to take extra courses as may be deemed necessary by the Department.
+          Candidate will have to pass and Entrance Examination in various
+          subject areas in Computer Science and will also have to pass an
+          interview before admitted.
+        </div>
+      </div>
+      <br /><br />
+      <p style="color: black">click here 👇to apply</p>
+      <a href="https://www.knust.edu.gh/admissions/prospective/applying">
+        <button>click here to apply</button>
+      </a>
+    </main>
+  </body>
+  <script>
+    document.getElementById("myb1").addEventListener("click", () => {
+      document.getElementById("myc1").classList.toggle("show");
+    });
+
+    document.getElementById("myb2").addEventListener("click", () => {
+      document.getElementById("myc2").classList.toggle("show");
+    });
+    document.getElementById("myb3").addEventListener("click", () => {
+      document.getElementById("myc3").classList.toggle("show");
+    });
+    document.getElementById("myb4").addEventListener("click", () => {
+      document.getElementById("myc4").classList.toggle("show");
+    });
+  </script>
+</html>

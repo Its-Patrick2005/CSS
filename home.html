@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-HOME</title>
+    <link rel="icon" href="images/000.png" type="image/png" />
+    <script
+      src="https://kit.fontawesome.com/5f5b65293b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia&effect=outline|shadow-multiple"
+    />
+  </head>
+  <style>
+    body {
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(
+        60deg,
+        #000000,
+        #000000,
+        #000000,
+        #0015ff,
+        #0c00f9,
+        #cc00ff,
+        #000000,
+        #000000,
+        #000000
+      );
+      background-size: 1000% 1000%;
+      animation: color 55s ease-in-out infinite;
+      overflow-y: auto;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+    @keyframes color {
+      0% {
+        background-position: 50% 50%;
+      }
+      15% {
+        background-position: 100% 50%;
+      }
+      25% {
+        background-position: 50% 50%;
+      }
+      35% {
+        background-position: 100% 50%;
+      }
+      45% {
+        background-position: 100% 50%;
+      }
+      50% {
+        background-position: 50% 50%;
+      }
+      55% {
+        background-position: 50% 50%;
+      }
+      65% {
+        background-position: 100% 50%;
+      }
+      75% {
+        background-position: 50% 50%;
+      }
+      85% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 100% 100%;
+      }
+    }
+
+    .image-container {
+      display: flex;
+      animation: appear 4s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    .image {
+      /* border: 2px solid; */
+      display: block;
+      width: 300px;
+      height: 200px;
+      filter: brightness(3);
+    }
+    @keyframes appear {
+      0% {
+        opacity: 0;
+        transform: scale(0.5);
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    header {
+      display: flex;
+      justify-content: center;
+    }
+    .navigation-bar {
+      display: flex;
+      justify-content: center;
+    }
+    .nav-image-container {
+      border: 2px solid transparent;
+      display: inline-block;
+      margin: 20px;
+      background-color: #0015ff00;
+      box-shadow: 5px 20px 3px #ffffff;
+      border-radius: 30px;
+    }
+    .nav-image-container .img1,
+    .img2,
+    .img3,
+    .img4 {
+      border: 2px solid white;
+      display: inline-block;
+      width: 300px;
+      height: 200px;
+      margin: 20px;
+    }
+    .img1 {
+      animation: nav1 4s;
+      animation-delay: 5s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      transition: 0.5s;
+      border-radius: 30px;
+      box-shadow: 20px 20px 3px #000000;
+    }
+    .r1 {
+      animation: nav1 4s;
+      animation-delay: 7s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+    .r2 {
+      animation: nav1 4s;
+      animation-delay: 10s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+    .img1:hover,
+    .img2:hover,
+    .img3:hover,
+    .img4:hover {
+      filter: grayscale(100%);
+      transition: 0.5s;
+      width: 310px;
+    }
+    .img2 {
+      animation: nav1 4s;
+      animation-delay: 6s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      transition: 0.5s;
+      border-radius: 30px;
+      box-shadow: 20px 20px 3px #000000;
+    }
+    .img3 {
+      animation: nav1 4s;
+      animation-delay: 8s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      transition: 0.5s;
+      border-radius: 30px;
+      box-shadow: 20px 20px 3px #000000;
+    }
+    .img4 {
+      animation: nav1 4s;
+      animation-delay: 9s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      transition: 0.5s;
+      border-radius: 30px;
+      box-shadow: 20px 20px 3px #000000;
+    }
+    @keyframes nav1 {
+      0% {
+        opacity: 0;
+        transform: scale(0.5);
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    /* main */
+    main {
+      justify-content: center;
+      text-align: center;
+    }
+    #section1 {
+      margin: 20px;
+      position: relative;
+      /* border: 2px solid; */
+      padding: 10px;
+      display: inline-block;
+      justify-items: center;
+      /* background-color: rgb(255, 255, 255); */
+      animation: up 4s;
+      animation-delay: 9s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      color: aliceblue;
+    }
+    @keyframes up {
+      0% {
+        opacity: 0;
+        transform: translateY(-200px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    h1 {
+      text-transform: uppercase;
+      font-size: 60px;
+      color: #ffffff;
+      text-decoration: underline;
+      /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+      font-family: "Sofia", sans-serif;
+      text-shadow: 10px 10px 5px #000000;
+    }
+    .s1img {
+      border: 2px solid;
+      width: 400px;
+      height: 400px;
+      border-radius: 30px;
+      box-shadow: 3px 3px 3px #000000;
+    }
+    .s1img-container {
+      /* border: 2px solid; */
+      width: 410px;
+      display: block;
+      text-align: center;
+      padding: 5px;
+      position: relative;
+      background-color: rgba(0, 0, 255, 0.175);
+      border-radius: 30px;
+      box-shadow: 3px 3px 3px #000000;
+    }
+    .image-text {
+      text-align: center;
+    }
+
+    .text {
+      text-transform: capitalize;
+      font-size: 20px;
+      box-shadow: 3px 3px 3px #000000;
+    }
+
+    #section2 {
+      margin: 20px;
+      display: block;
+      justify-items: center;
+    }
+    #section3 {
+      margin: 20px;
+      display: block;
+      justify-items: center;
+    }
+    /* #section2{
+        background-color: yellow;
+    }
+    #section3{
+        background-color: green;
+    } */
+    .event-container {
+      border: 2px solid;
+      background-image: url(images/cssicon.png);
+      background-color: #ffffff;
+      border-radius: 30px;
+      box-shadow: 20px 20px 3px #000000;
+    }
+    .event-container img {
+      width: 600px;
+      height: 600px;
+      margin: 20px;
+      border: 2px solid;
+      position: relative;
+    }
+    button {
+      border: 2px solid #000000;
+      border-radius: 20px;
+      padding: 10px;
+      color: rgb(255, 0, 0);
+      cursor: pointer;
+      box-shadow: 3px 3px 3px #000000;
+      margin-bottom: 5px;
+      background-color: #ffffff;
+    }
+    button:hover {
+      background-color: #ff004c;
+      color: white;
+      transition: 0.8s;
+    }
+    /* footer */
+    footer {
+      background-color: rgba(128, 128, 128, 0);
+      padding: 10px;
+      border-radius: 30px;
+      border: 2px solid white;
+      color: white;
+      box-shadow: -10px -10px 3px #000000;
+      /* position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%; */
+    }
+    .footer-container {
+      display: flex;
+      column-gap: 200px;
+    }
+
+    footer li::marker {
+      content: "👉";
+    }
+    footer li a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.5s;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px;
+    }
+    footer li a:hover {
+      color: rgb(255, 0, 0);
+      text-decoration: underline;
+    }
+    /* reveal */
+    .reveal {
+      opacity: 0;
+      transition: opacity 5s;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+    }
+    header p{
+      position: absolute;
+      left: 10px;
+      color: #ffffff;
+    }
+    .I{
+      position: absolute;
+      left: 20px;
+      width: 15%;
+      filter: brightness(2);
+    }
+    .e{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 10%;
+      border-radius: 50%;
+    }
+  </style>
+  <body>
+    <p><img src="images/KNUST-Logo-Vector.svg-.png" alt="" class="I"></p>
+    <header>
+      <div class="image-container">
+        <img src="images/icon.png" alt="css icon" class="image" />
+      </div>
+
+    </header>
+    <img src="images/NLZYx4wf_400x400.jpg" alt="" class="e">
+
+    <nav class="navigation-bar">
+      <div class="nav-image-container">
+        <a href="about.html">
+          <img src="images/IMG_4955.jpg" alt="imagee 1" class="img1" />
+        </a>
+        <a href="calender.html">
+        <img
+          src="images/behnam-norouzi-JSWukh-Q-Cs-unsplash.jpg"
+          alt=" image 2"
+          class="img2"
+        />
+        </a>
+        <h2 style="text-transform: capitalize; color: aliceblue" class="r1">
+          about us____________________________Calender
+        </h2>
+        <a href="staff.html">
+        <img src="images/Rimage4.png" alt="image 3" class="img3" />
+        </a>
+        <a href="library.html">
+        <img src="images/Rimage2.png" alt="image 4" class="img4" />
+        </a>
+        <h2 style="text-transform: capitalize; color: aliceblue" class="r2">
+          staff directory___________________________Library
+        </h2>
+      </div>
+    </nav>
+
+    <main>
+      <section id="section1">
+        <h1 style="text-decoration: none">welcome message from the h.o.d</h1>
+        <div class="s1img-container">
+          <img src="images/1.jpg" alt="h.o.d image" class="s1img" />
+          <div class="image-text">
+            <p class="text">prof. james b. hayfron-aquah</p>
+          </div>
+        </div>
+        <div>
+          <p style="font-size: 20px; text-shadow: 3px 3px 3px #000000">
+            The Department currently runs one
+            undergraduate programme in Computer Science and three
+            postgraduate programmes in Computer Science, Information
+            Technology, and Cyber Security and<br />
+            Digital Forensic. The Department also runs parallel
+            programmes.
+            In today's rapidly changing world, maintaining global
+            competitiveness
+            requires the talents of a well-rounded,<br />
+            holistic individual with technical knowledge and business acumen
+            to<br />
+            address challenging issues. The Computer Science Department is
+            unique in
+            developing skills in Information Technology.<br /><b
+              >Welcome to the Department.</b
+            >
+          </p>
+        </div>
+      </section>
+
+      <section id="section2" class="reveal">
+        <h1>upcoming events</h1>
+        <div class="event-container">
+          <img
+            src="images/WhatsApp Image 2024-12-02 at 16.59.25_efe6629b.jpg"
+            alt=""
+          />
+          <div class="image-text">
+            <a href="events.html"><button><p class="text">click to view all</p></button></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="section3">
+        <h1>announcements</h1>
+        <div class="event-container">
+          <img
+            src="images/ppppppppppppppppppp.jpg"
+            alt=""
+          />
+          <div class="image-text">
+            <a href="announcement.html"><button><p class="text">click to view all</p></button></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2 style="text-align: center">OTHERS</h2>
+      <div class="footer-container">
+        <div class="footer-links">
+          <ul>
+            <li><a href="https://cos.knust.edu.gh/">College of Science</a></li>
+            <br />
+            <li><a href="admission.html">Admision Guide</a></li>
+            <br />
+            <li><a href="https://www.knust.edu.gh/">KNUST</a></li>
+            <br />
+            <li><a href="#">link 4</a></li>
+            <br />
+          </ul>
+        </div>
+        <div class="contact-info">
+          <h3>Contact Us</h3>
+          <p>Phone: +233 555 555 555</p>
+          <p>Email: info@knust.edu</p>
+        </div>
+      </div>
+
+      <div class="social-media-links">
+        <h3>Follow Us On</h3>
+       <a href="https://www.instagram.com/thecssknust"><i
+          class="fa-brands fa-instagram fa-2xl fa-beat"
+          style="color: #ff004c"
+        ></i>
+        </a>
+        <a href="https://twitter.com/thecssknust">
+        <i class="fa-brands fa-square-x-twitter fa-2xl fa-beat"></i>
+        </a>
+      </div>
+      <p>
+        &copy;2024 Department of Computer Science,KNUST,Kumasi,Ghana | Developed
+        by Asare Patrick
+      </p>
+    </footer>
+  </body>
+  <script>
+    const reveal = document.querySelector(".reveal");
+
+    function reveall(element) {
+      const rect = element.getBoundingClientRect();
+      return rect.top < globalThis.innerHeight && rect.bottom > 0;
+    }
+
+    function revealElement() {
+      if (reveall(reveal)) {
+        reveal.classList.add("visible");
+      }
+    }
+
+    globalThis.addEventListener("scroll", revealElement);
+  </script>
+</html>

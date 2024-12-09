@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Library</title>
+    <link rel="icon" href="images/000.png" type="image/png" />
+    <script src="https://kit.fontawesome.com/5f5b65293b.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia&effect=outline|shadow-multiple"
+    />
+</head>
+<style>
+    body{
+        justify-items: center;
+        display: flex;
+        background-color: #000000;
+    }
+    nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  background: linear-gradient(50deg, #b0b3d2, #000000);
+  width: 400px;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px #0011fa;
+  z-index: 3;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+nav a {
+  color: #f9f9f9;
+}
+nav a:hover:not(.active) {
+  color: #0008ff;
+  font-size: 1.1em;
+}
+nav a.active {
+  color: #1d04da;
+}
+/* end of navigation */
+    .container {
+        border: 2px solid;
+        width: 40%;
+        height:100vh;
+        position: relative;
+        transition: 0.5s;
+    }
+    .container:hover{
+        
+        border-color: #0008ff;
+        border-width: 5px;
+    }
+    p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        font-size: 40px;
+        font-family: "Sofia", sans-serif, sans-serif;
+        text-shadow: 10px 10px 5px #000000;
+    }
+    .container img{
+        width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(20%);
+  transition: filter 0.5s ease;
+
+    }
+    .container:hover img{
+        filter: brightness(100%);
+    }
+
+
+</style>
+<body>
+    <nav>
+        <ul>
+          <a href="home.html"><li><i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i></li></a>
+          <a href="about.html"><li>about</li></a>
+          <a href="calender.html"><li>calender</li></a>
+          <a href="staff.html" ><li>staff</li></a>
+          <a href="library.html" class="active"><li>library</li></a>
+        </ul>
+      </nav>
+    
+    <div class="container">
+        <a href="https://t.me/cs1coursematerials"><img src="images/ISO_C++_Logo.svg.png" alt="" title="click to view in telegram"></a>
+        <p>CS-1 course materials</p>
+    </div>
+
+    <div class="container">
+        <a href="https://t.me/knustslidesbank"><img src="images/javaaaaaaaaa.png" alt="" title="click to view in telegram"></a>
+        <p>CS-2 course materials</p>
+    </div>
+
+    <div class="container">
+        <a href="https://t.me/knustslidesbank"><img src="images/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg" alt="" title="click to view in telegram"></a>
+        <p>CS-3 course materials</p>
+    </div>
+
+    <div class="container">
+        <a href="https://t.me/knustslidesbank"><img src="images/software-development-concepts-and-programming-for-various-devices-software-engineer-computer-programmer-coding-process-chart-testing-platform-data-analytics-online-safety-photo.jpg" alt="" title="click to view in telegram"></a>
+        <p>CS-4 course materials</p>
+    </div>
+    
+</body>
+</html>
