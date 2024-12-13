@@ -153,6 +153,45 @@
       text-transform: capitalize;
       cursor: pointer;
     }
+    p{
+      font-size: 30px;
+    }
+    @media(max-width: 767px){
+      nav {
+      position: fixed;
+      height: 40px;
+      margin-top: 10px;
+      border-radius: 20px;
+      box-shadow: 3px 3px 5px #0011fa;
+      z-index: 4;
+    }
+    .slider {
+      border: 2px solid;
+      height: 300px;
+      position: relative;
+      width: 100%;
+    }
+    .slides h1 {
+      font-size: 15px;
+    
+    }
+    .history-container {
+      width: 110%;
+    }
+    .history-container h1 {
+      font-size: 40px;
+    
+    }
+    p{
+      font-size: 10px;
+    }
+    .executives{
+      height: 150px;
+    }
+    h2{
+      font-size: 30px;
+    }
+    }
   </style>
   <body>
     <nav>
@@ -189,7 +228,7 @@
             "
           </span>
           we are the backbone of mordern technology
-          <span
+          <span class="quote"
             style="
               color: #ff004c;
               font-size: 50px;
@@ -206,7 +245,7 @@
         <h1>OUR HISTORY</h1>
         <p
           style="
-            font-size: 30px;
+            
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
               sans-serif;
           "
