@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="loading" content="eager">
+    <meta name="loading" content="eager" />
     <title>CSS-Staff</title>
     <link rel="icon" href="images/000.png" type="image/png" />
     <script
@@ -13,7 +13,7 @@
   </head>
   <style>
     body {
-  /* background: linear-gradient(
+      /* background: linear-gradient(
     50deg,
     #09037beb,
     #000000,
@@ -21,160 +21,161 @@
     #081735,
     #000000
   ); */
-  background-image: url(images/cssicon.png);
-}
+      background-image: url(images/cssicon.png);
+    }
 
-nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin-right: 10px;
-  background: linear-gradient(50deg, #b0b3d2, #000000);
-  width: 400px;
-  height: 50px;
-  margin-top: 5px;
-  border-radius: 20px;
-  box-shadow: 3px 3px 5px #0011fa;
-  z-index: 3;
-}
-nav ul {
-  list-style: none;
-}
-nav li {
-  display: inline-block;
-  text-align: center;
-  padding-left: 20px;
-  text-transform: capitalize;
-}
-nav a {
-  color: #f9f9f9;
-}
-nav a:hover:not(.active) {
-  color: #0008ff;
-  font-size: 1.1em;
-}
-nav a.active {
-  color: #1d04da;
-}
-/* end of navbar */
-.staff1 {
-  border: 2px solid #010eff;
-  width: 302px;
-  height: 320px;
-  margin-top: 100px;
-  float: left;
-  position: relative;
-  margin-right: 10px;
-  box-shadow: 3px 5px 10px #000000;
-  background-color: #0008ff;
-  border-radius: 10px;
-}
-.s1 {
-  position: relative;
-  width: 300px;
-  height: 260px;
-  border: 2px solid #0033ff;
-  overflow: hidden;
-  border-radius: 10px;
-}
-.staff1 p {
-  text-align: center;
-  margin-top: 20px;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-}
-.is1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-h1 {
-  color: rgb(0, 34, 255);
-  text-decoration:overline;
-}
-
-.foot {
-  position: fixed;
-  bottom: -270px;
-  left: 0;
-  color: aliceblue;
-  display: flex;
-  border-width: 100%;
-  padding: 10px;
-  transition: 0.5s ease-in-out;
-  border: transparent;
-  box-shadow: 0 0 10px #1a24df;
-  background-color: #020a60c1;
-  width: 100%;
-}
-
-.foot:hover {
-  bottom: 0;
-  border-top: 3px solid white;
-  backdrop-filter: blur(20px);
-}
-
-.fcont {
-  position: relative;
-  z-index: 1;
-}
-.others li {
-  display: block;
-}
-.others a {
-  text-decoration: none;
-  color: rgb(241, 1, 1);
-  font-size: 18px;
-}
-#copy {
-  text-align: center;
-  color: rgb(176, 162, 162);
-  font-size: 15px;
-}
-a:hover{
-  color:chartreuse;
-
-}
-p::selection{
-  color: rgb(0, 13, 255);
-  background-color: #000000;
-}
-
-@media (max-width: 767px) {
-  nav {
+    nav {
       position: fixed;
-      height: 40px;
-      margin-top: 10px;
+      top: 0;
+      right: 0;
+      margin-right: 10px;
+      background: linear-gradient(50deg, #b0b3d2, #000000);
+      width: 400px;
+      height: 50px;
+      margin-top: 5px;
       border-radius: 20px;
       box-shadow: 3px 3px 5px #0011fa;
-      z-index: 4;
+      z-index: 3;
     }
-    .staff1{
-      width: 250px;
-      height: 270px;
+    nav ul {
+      list-style: none;
     }
-    .s1{
-      width: 250px;
-      height: 200px;
+    nav li {
+      display: inline-block;
+      text-align: center;
+      padding-left: 20px;
+      text-transform: capitalize;
     }
-    h1{
-      margin-top: 90px;
+    nav a {
+      color: #f9f9f9;
+    }
+    nav a:hover:not(.active) {
+      color: #0008ff;
+      font-size: 1.1em;
+    }
+    nav a.active {
+      color: #1d04da;
+    }
+    /* end of navbar */
+    .staff1 {
+      border: 2px solid #010eff;
+      width: 302px;
+      height: 320px;
+      margin-top: 100px;
+      float: left;
+      position: relative;
+      margin-right: 10px;
+      box-shadow: 3px 5px 10px #000000;
+      background-color: #0008ff;
+      border-radius: 10px;
+    }
+    .s1 {
+      position: relative;
+      width: 300px;
+      height: 260px;
+      border: 2px solid #0033ff;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .staff1 p {
+      text-align: center;
+      margin-top: 20px;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+    }
+    .is1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    h1 {
+      color: rgb(0, 34, 255);
+      text-decoration: overline;
+    }
+
+    .foot {
+      position: fixed;
+      bottom: -270px;
+      left: 0;
+      color: aliceblue;
+      display: flex;
+      border-width: 100%;
+      padding: 10px;
+      transition: 0.5s ease-in-out;
+      border: transparent;
+      box-shadow: 0 0 10px #1a24df;
+      background-color: #020a60c1;
+      width: 100%;
+    }
+
+    .foot:hover {
+      bottom: 0;
+      border-top: 3px solid white;
+      backdrop-filter: blur(20px);
+    }
+
+    .fcont {
+      position: relative;
+      z-index: 1;
+    }
+    .others li {
+      display: block;
+    }
+    .others a {
+      text-decoration: none;
+      color: rgb(241, 1, 1);
+      font-size: 18px;
     }
     #copy {
-  color: rgb(176, 162, 162);
-  font-size: 10px;
-}
+      text-align: center;
+      color: rgb(176, 162, 162);
+      font-size: 15px;
+    }
+    a:hover {
+      color: chartreuse;
+    }
+    p::selection {
+      color: rgb(0, 13, 255);
+      background-color: #000000;
+    }
 
-}
-
-
-
+    @media (max-width: 767px) {
+      nav {
+        position: fixed;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px #0011fa;
+        z-index: 4;
+      }
+      .staff1 {
+        width: 250px;
+        height: 270px;
+      }
+      .s1 {
+        width: 250px;
+        height: 200px;
+      }
+      h1 {
+        margin-top: 90px;
+      }
+      #copy {
+        color: rgb(176, 162, 162);
+        font-size: 10px;
+      }
+    }
   </style>
   <body>
     <nav>
       <ul>
-        <a href="index.html"><li><i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i></li></a>
+        <a href="index.html"
+          ><li>
+            <i
+              class="fa-sharp fa-solid fa-house fa-xl"
+              style="color: #ffffff"
+            ></i></li
+        ></a>
         <a href="about.html"><li>about</li></a>
         <a href="calender.html"><li>calender</li></a>
         <a href="staff.html" class="active"><li>staff</li></a>
@@ -589,13 +590,20 @@ p::selection{
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <hr />
 
-    <p style="text-align: center; text-transform: uppercase; color: rgb(21, 0, 255)">
+    <p
+      style="
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(21, 0, 255);
+      "
+    >
       for more information on our staff,click the link below 👇:<br /><a
         href="https://webapps.knust.edu.gh/staff/dirsearch/profile/positions/eff5d2f8b40c.html"
         style="color: brown"
         >here</a
       >
-    </p><br><br><br><br><br><br>
+    </p>
+    <br /><br /><br /><br /><br /><br />
 
     <footer class="foot">
       <div class="fcont">
@@ -615,7 +623,7 @@ p::selection{
             </a>
           </li>
           <br />
-          <hr>
+          <hr />
           <p>Follow Us On</p>
           <li>
             <a href="https://www.instagram.com/thecssknust"

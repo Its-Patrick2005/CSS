@@ -6,163 +6,159 @@
     <title>CSS-Calender</title>
     <link rel="icon" href="images/000.png" type="image/png" />
     <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Sofia&effect=outline|shadow-multiple"
-  />
-  <script
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia&effect=outline|shadow-multiple"
+    />
+    <script
       src="https://kit.fontawesome.com/5f5b65293b.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <style>
     body {
- 
- background-color: #000000;
- background-size: 300% 300%;
- text-align: center;
-}
-/* body::-webkit-scrollbar {
+      background-color: #000000;
+      background-size: 300% 300%;
+      text-align: center;
+    }
+    /* body::-webkit-scrollbar {
  display: none;
 } */
 
-
-nav {
- position: fixed;
- top: 0;
- right: 0;
- margin-right: 10px;
- background: linear-gradient(50deg, #b0b3d2, #000000);
- width: 400px;
- height: 50px;
- margin-top: 5px;
- border-radius: 20px;
- box-shadow: 3px 3px 5px #0011fa;
- z-index: 3;
-}
-nav ul {
- list-style: none;
-}
-nav li {
- display: inline-block;
- text-align: center;
- padding-left: 20px;
- text-transform: capitalize;
-}
-nav a {
- color: #f9f9f9;
-}
-nav a:hover:not(.active) {
- color: #0008ff;
- font-size: 1.1em;
-}
-nav a.active {
- color: #1d04da;
-}
-/* end of navbar */
-
-main{
- margin: 40px;
- margin-top: 100px;
- background:#000000;
- border-radius: 30px;
- box-shadow: 3px 3px 3px 5px #0011fa;
- border: 2px solid #f9f9f9;
- justify-items: center;
- position: relative;
-
-}
-
-.b1{
- border: 2px solid #000;
- display: inline-block;
- width: 80%;
- height: auto;
- margin: 40px;
- border-radius: 20px;
- box-shadow: 10px 10px 3px #0011fa;
- background-color: #000000;
- border-right: 2px solid #f9f9f9;
- border-bottom: 2px solid #f9f9f9;
- justify-items: center;
-}
-main h1{
- text-transform: uppercase;
- font-size: 40px;
- text-decoration: underline;
- font-family: 'Castellar', 'Cochin', Georgia, Times, 'Times New Roman', serif;
- font-style: italic;
- color: #0008ff;
- text-shadow: 3px 3px 3px #f9f9f9
-}
-
-.head{
- margin-top: 100px;
- font-size: 100px;
- font-family: 'sofia',sans-serif;
- text-shadow: 5px 5px 5px #7b00ff,-5px -5px 5px #3b41e7;
- color: #f9f9f9;
- 
-}
-table{
-  border: 2px solid white;
-}
-table:nth-child(2){
-  background-color: #0234ff;
-}
-
-th, td {
-  border: 2px solid white;
-  padding: 15px;
-  text-align: left;
-}
-th{
-  font-size: 30px;
-  text-transform: capitalize;
-}
-@media(max-width: 767px){
-  nav {
+    nav {
       position: fixed;
-      height: 40px;
-      margin-top: 10px;
+      top: 0;
+      right: 0;
+      margin-right: 10px;
+      background: linear-gradient(50deg, #b0b3d2, #000000);
+      width: 400px;
+      height: 50px;
+      margin-top: 5px;
       border-radius: 20px;
       box-shadow: 3px 3px 5px #0011fa;
-      z-index: 4;
-}
-.head{
-  font-size: 30px;
-}
-main h1{
-  font-size: 25px;
-}
+      z-index: 3;
+    }
+    nav ul {
+      list-style: none;
+    }
+    nav li {
+      display: inline-block;
+      text-align: center;
+      padding-left: 20px;
+      text-transform: capitalize;
+    }
+    nav a {
+      color: #f9f9f9;
+    }
+    nav a:hover:not(.active) {
+      color: #0008ff;
+      font-size: 1.1em;
+    }
+    nav a.active {
+      color: #1d04da;
+    }
+    /* end of navbar */
 
-.b1{
-  width: 80%;
-  height: auto;
+    main {
+      margin: 40px;
+      margin-top: 100px;
+      background: #000000;
+      border-radius: 30px;
+      box-shadow: 3px 3px 3px 5px #0011fa;
+      border: 2px solid #f9f9f9;
+      justify-items: center;
+      position: relative;
+    }
 
-}
-td{
-  font-size: 10px;
-  position: relative;
+    .b1 {
+      border: 2px solid #000;
+      display: inline-block;
+      width: 80%;
+      height: auto;
+      margin: 40px;
+      border-radius: 20px;
+      box-shadow: 10px 10px 3px #0011fa;
+      background-color: #000000;
+      border-right: 2px solid #f9f9f9;
+      border-bottom: 2px solid #f9f9f9;
+      justify-items: center;
+    }
+    main h1 {
+      text-transform: uppercase;
+      font-size: 40px;
+      text-decoration: underline;
+      font-family: "Castellar", "Cochin", Georgia, Times, "Times New Roman",
+        serif;
+      font-style: italic;
+      color: #0008ff;
+      text-shadow: 3px 3px 3px #f9f9f9;
+    }
 
-}
-th{
-  font-size: 20px;
-}
-body{
-  justify-items: center;
-}
+    .head {
+      margin-top: 100px;
+      font-size: 100px;
+      font-family: "sofia", sans-serif;
+      text-shadow: 5px 5px 5px #7b00ff, -5px -5px 5px #3b41e7;
+      color: #f9f9f9;
+    }
+    table {
+      border: 2px solid white;
+    }
+    table:nth-child(2) {
+      background-color: #0234ff;
+    }
 
+    th,
+    td {
+      border: 2px solid white;
+      padding: 15px;
+      text-align: left;
+    }
+    th {
+      font-size: 30px;
+      text-transform: capitalize;
+    }
+    @media (max-width: 767px) {
+      nav {
+        position: fixed;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px #0011fa;
+        z-index: 4;
+      }
+      .head {
+        font-size: 30px;
+      }
+      main h1 {
+        font-size: 25px;
+      }
 
-
-}
-
-
-
+      .b1 {
+        width: 80%;
+        height: auto;
+      }
+      td {
+        font-size: 10px;
+        position: relative;
+      }
+      th {
+        font-size: 20px;
+      }
+      body {
+        justify-items: center;
+      }
+    }
   </style>
   <body>
     <nav>
       <ul>
-        <a href="index.html"><li><i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i></li></a>
+        <a href="index.html"
+          ><li>
+            <i
+              class="fa-sharp fa-solid fa-house fa-xl"
+              style="color: #ffffff"
+            ></i></li
+        ></a>
         <a href="about.html"><li>about</li></a>
         <a href="calender.html" class="active"><li>calender</li></a>
         <a href="staff.html"><li>staff</li></a>
@@ -170,342 +166,303 @@ body{
       </ul>
     </nav>
     <h1 class="head">2023/2024</h1>
-<main>
-    <div class="b1">
-      <h1>first semister</h1>
-
-      <table style="color: #f9f9f9;">
-        <tr>
-          <th>activity</th>
-          <th>from</th>
-          <th>to</th>
-        </tr>
-        <tr>
-          <td>Online Course Registration: Continuing Students</td>
-          <td>Wednesday, December 27, 2023</td>
-          <td>Saturday, January 20, 2024</td>
-        </tr>
-        <tr>
-          <td>Online Course Registration: Freshmen</td>
-          <td>Wednesday, January 3, 2024</td>
-          <td>Monday, February 5, 2024</td>
-        </tr>
-        <tr>
-          <td>Virtual Orientation: Freshmen</td>
-          <td>Tuesday, January 2, 2024</td>
-          <td>Tuesday, January 2, 2024</td>
-        </tr>
-        <tr>
-          <td>Arrival of Freshmen</td>
-          <td>Saturday, January 6, 2024</td>
-          <td>Saturday, January 6, 2024</td>
-        </tr>
-        <tr>
-          <td>Biometric Registration: Freshmen</td>
-          <td>Saturday, January 6, 2024</td>
-          <td>Monday, February 5, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Residential Orientation: Freshmen</td>
-          <td>Sunday, January 7, 2024</td>
-          <td>Friday, January 12, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Academic Orientation: College, Faculty, Department.</td>
-          <td>Monday, January 8, 2024</td>
-          <td>Wednesday, January 10, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Medical Examination</td>
-          <td>Monday, January 8, 2024</td>
-          <td>Friday, February 9, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Arrival of Continuing Students</td>
-          <td>Saturday, January 13, 2024</td>
-          <td>Saturday, January 13. 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Biometric Registration: Continuing Students</td>
-          <td>Monday, January 15, 2024</td>
-          <td>Monday, February 5, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Teaching Period: 1st Semester</td>
-          <td>Monday, January 15, 2024</td>
-          <td>Friday, April 5, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Lectures Start</td>
-          <td>Monday, January 15, 2024</td>
-          <td>Monday, January 15, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Academic Board: Supplementary Exam Results</td>
-          <td>Wednesday, January 24, 2024</td>
-          <td>Wednesday, January 24, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Matriculation</td>
-          <td>Tuesday, February 6, 2024
-            <br><br>
-            Saturday, February 10 (IDL)</td>
-            <td>Tuesday, February 6, 2024 
-              <br><br>
-              Saturday, February 10, 2024 (IDL)</td>
-            </tr>
-
-
-
-        <tr>
-          <td>Congregation for Ministry of Health Training Institutions</td>
-          <td>Wednesday, February 14, 2024</td>
-          <td>Friday, February 16, 2024</td>
-        </tr>
-
-        <tr>
-          <td>SGS Board: Postgraduate Final Results</td>
-          <td>Tuesday, January 23, 2024</td>
-          <td>Tuesday, January 23, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Academic Board: Postgraduate Results</td>
-          <td>Wednesday, January 31, 2024</td>
-          <td>Wednesday, January 31, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Mid-Semester Examinations</td>
-          <td>Monday, February 26, 2024</td>
-          <td>Friday, March 1, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Special Congregation</td>
-          <td>Wednesday, March 20, 2024</td>
-          <td>Saturday, March 23, 2024</td>
-        </tr>
-
-
-
-        <tr>
-          <td>Assessment of Lecturers by Students</td>
-          <td>Monday, April 1, 2024</td>
-          <td>Friday, April 5, 2024</td>
-        </tr>
-
-
-
-        <tr>
-          <td>First Semester Examinations</td>
-          <td>Monday, April 8, 2024</td>
-          <td>Friday, April 26, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Students Depart</td>
-          <td>Saturday, April 27, 2024</td>
-          <td>Saturday, April 27, 2024</td>
-        </tr>
-      </table>
-
-
-        
-
-      
-    </div>
-
-    <div class="b1">
-      <h1>second semister</h1>
-
-      <table style="color: #f9f9f9;">
-        <tr>
-          <th>activity</th>
-          <th>from</th>
-          <th>to</th>
-        </tr>
-        <tr>
-          <td>Arrival of All Students</td>
-          <td>Saturday, May 11, 2024</td>
-          <td>Saturday, May 11, 2024</td>
-        </tr>
-        <tr>
-          <td>Teaching Period: 2nd Semester</td>
-          <td>Monday, May 13, 2024</td>
-          <td>Friday, August 2, 2024</td>
-        </tr>
-        <tr>
-          <td>Biometric Registration</td>
-          <td>Monday, May 13, 2024</td>
-          <td>Friday May 17, 2024</td>
-        </tr>
-        <tr>
-          <td>Lectures Start</td>
-          <td>Monday, May 13, 2024</td>
-          <td>Monday, May 13, 2024</td>
-        </tr>
-        <tr>
-          <td>Auditing of 1st Semester Examinations Results</td>
-          <td>Monday, June 3, 2024</td>
-          <td>Friday, June14, 2024</td>
-        </tr>
-
-        <tr>
-          <td>College Boards: 1st Semester Results</td>
-          <td>Monday, June 17, 2024</td>
-          <td>Wednesday, June 19, 2024</td>
-        </tr>
-
-        <tr>
-          <td>SGS Board: 1st Semester Postgraduate Results</td>
-          <td>Tuesday, July 2, 2024</td>
-          <td>Tuesday, July 2, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Academic Board: 1st Semester Results</td>
-          <td>Thursday, July 4, 2024</td>
-          <td>Thursday, July 4, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Mid-Semester Examinations</td>
-          <td>Monday, June 24, 2024</td>
-          <td>Friday, June 28, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Assessment of Lecturers by Students</td>
-          <td>Monday, July 29, 2024</td>
-          <td>Friday, August 2, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Second Semester Examinations</td>
-          <td>Monday, August 5, 2024</td>
-          <td>Friday, August 23, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Students Depart</td>
-          <td>Saturday, August 24, 2024</td>
-          <td>Saturday, August 24, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Auditing of Final Year Results</td>
-          <td>Monday, September 16 2024</td>
-          <td>Wednesday, September 18, 2024</td>
-        </tr>
-
-        <tr>
-          <td>College Boards: Final Year Results</td>
-          <td>Wednesday, September 18, 2024</td>
-          <td>Friday, September 20, 2024</td>
-        </tr>
-
-
-
-        <tr>
-          <td>Auditing of Continuing Students' Results</td>
-          <td>Monday, September 23, 2024</td>
-          <td>Friday, September 27, 2024</td>
-        </tr>
-
-        <tr>
-          <td>SGS Board: Postgraduate Results, Final Year</td>
-          <td>Tuesday, September 24, 2024</td>
-          <td>Tuesday, September 24, 2024</td>
-        </tr>
-
-        <tr>
-          <td>Academic Board: Final Year Results</td>
-          <td>Wednesday, October 2, 2024</td>
-          <td>Wednesday, October 2, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>College Boards: Continuing Students Results</td>
-          <td>Thursday, October 10, 2024</td>
-          <td>Friday, October 11, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>SGS Board: Postgraduate Results, Continuing Students</td>
-          <td>Monday, October 14, 2024</td>
-          <td>Monday, October 14, 2024</td>
-        </tr>
-
-
-
-        <tr>
-          <td>Staff Break: Academic Staff</td>
-          <td>Friday, October 18, 2024</td>
-          <td>Friday, November 8, 2024</td>
-        </tr>
-
-
-
-        <tr>
-          <td>Supplementary Examinations</td>
-          <td>Wednesday, November  13, 2024</td>
-          <td>Friday, November 22, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Mark, Audit, Process Supplementary Examinations Results</td>
-          <td>Monday, November 25, 2024</td>
-          <td>Friday, December 13,  2024</td>
-        </tr>
-
-
-        <tr>
-          <td>College Boards: Supplementary Results</td>
-          <td>Tuesday, December 17, 2024</td>
-          <td>Tuesday, December17, 2024</td>
-        </tr>
-
-
-        <tr>
-          <td>Congregation (Regular)</td>
-          <td>Monday, November 25, 2024</td>
-          <td>Saturday, November 30, 2024</td>
-        </tr>
-
-
-        
-
-
-      </table>
-      
-    </div>
-
-    
-</main>
+    <main>
+      <div class="b1">
+        <h1>first semister</h1>
+
+        <table style="color: #f9f9f9">
+          <tr>
+            <th>activity</th>
+            <th>from</th>
+            <th>to</th>
+          </tr>
+          <tr>
+            <td>Online Course Registration: Continuing Students</td>
+            <td>Wednesday, December 27, 2023</td>
+            <td>Saturday, January 20, 2024</td>
+          </tr>
+          <tr>
+            <td>Online Course Registration: Freshmen</td>
+            <td>Wednesday, January 3, 2024</td>
+            <td>Monday, February 5, 2024</td>
+          </tr>
+          <tr>
+            <td>Virtual Orientation: Freshmen</td>
+            <td>Tuesday, January 2, 2024</td>
+            <td>Tuesday, January 2, 2024</td>
+          </tr>
+          <tr>
+            <td>Arrival of Freshmen</td>
+            <td>Saturday, January 6, 2024</td>
+            <td>Saturday, January 6, 2024</td>
+          </tr>
+          <tr>
+            <td>Biometric Registration: Freshmen</td>
+            <td>Saturday, January 6, 2024</td>
+            <td>Monday, February 5, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Residential Orientation: Freshmen</td>
+            <td>Sunday, January 7, 2024</td>
+            <td>Friday, January 12, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Academic Orientation: College, Faculty, Department.</td>
+            <td>Monday, January 8, 2024</td>
+            <td>Wednesday, January 10, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Medical Examination</td>
+            <td>Monday, January 8, 2024</td>
+            <td>Friday, February 9, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Arrival of Continuing Students</td>
+            <td>Saturday, January 13, 2024</td>
+            <td>Saturday, January 13. 2024</td>
+          </tr>
+
+          <tr>
+            <td>Biometric Registration: Continuing Students</td>
+            <td>Monday, January 15, 2024</td>
+            <td>Monday, February 5, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Teaching Period: 1st Semester</td>
+            <td>Monday, January 15, 2024</td>
+            <td>Friday, April 5, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Lectures Start</td>
+            <td>Monday, January 15, 2024</td>
+            <td>Monday, January 15, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Academic Board: Supplementary Exam Results</td>
+            <td>Wednesday, January 24, 2024</td>
+            <td>Wednesday, January 24, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Matriculation</td>
+            <td>
+              Tuesday, February 6, 2024 <br /><br />
+              Saturday, February 10 (IDL)
+            </td>
+            <td>
+              Tuesday, February 6, 2024 <br /><br />
+              Saturday, February 10, 2024 (IDL)
+            </td>
+          </tr>
+
+          <tr>
+            <td>Congregation for Ministry of Health Training Institutions</td>
+            <td>Wednesday, February 14, 2024</td>
+            <td>Friday, February 16, 2024</td>
+          </tr>
+
+          <tr>
+            <td>SGS Board: Postgraduate Final Results</td>
+            <td>Tuesday, January 23, 2024</td>
+            <td>Tuesday, January 23, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Academic Board: Postgraduate Results</td>
+            <td>Wednesday, January 31, 2024</td>
+            <td>Wednesday, January 31, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Mid-Semester Examinations</td>
+            <td>Monday, February 26, 2024</td>
+            <td>Friday, March 1, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Special Congregation</td>
+            <td>Wednesday, March 20, 2024</td>
+            <td>Saturday, March 23, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Assessment of Lecturers by Students</td>
+            <td>Monday, April 1, 2024</td>
+            <td>Friday, April 5, 2024</td>
+          </tr>
+
+          <tr>
+            <td>First Semester Examinations</td>
+            <td>Monday, April 8, 2024</td>
+            <td>Friday, April 26, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Students Depart</td>
+            <td>Saturday, April 27, 2024</td>
+            <td>Saturday, April 27, 2024</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="b1">
+        <h1>second semister</h1>
+
+        <table style="color: #f9f9f9">
+          <tr>
+            <th>activity</th>
+            <th>from</th>
+            <th>to</th>
+          </tr>
+          <tr>
+            <td>Arrival of All Students</td>
+            <td>Saturday, May 11, 2024</td>
+            <td>Saturday, May 11, 2024</td>
+          </tr>
+          <tr>
+            <td>Teaching Period: 2nd Semester</td>
+            <td>Monday, May 13, 2024</td>
+            <td>Friday, August 2, 2024</td>
+          </tr>
+          <tr>
+            <td>Biometric Registration</td>
+            <td>Monday, May 13, 2024</td>
+            <td>Friday May 17, 2024</td>
+          </tr>
+          <tr>
+            <td>Lectures Start</td>
+            <td>Monday, May 13, 2024</td>
+            <td>Monday, May 13, 2024</td>
+          </tr>
+          <tr>
+            <td>Auditing of 1st Semester Examinations Results</td>
+            <td>Monday, June 3, 2024</td>
+            <td>Friday, June14, 2024</td>
+          </tr>
+
+          <tr>
+            <td>College Boards: 1st Semester Results</td>
+            <td>Monday, June 17, 2024</td>
+            <td>Wednesday, June 19, 2024</td>
+          </tr>
+
+          <tr>
+            <td>SGS Board: 1st Semester Postgraduate Results</td>
+            <td>Tuesday, July 2, 2024</td>
+            <td>Tuesday, July 2, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Academic Board: 1st Semester Results</td>
+            <td>Thursday, July 4, 2024</td>
+            <td>Thursday, July 4, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Mid-Semester Examinations</td>
+            <td>Monday, June 24, 2024</td>
+            <td>Friday, June 28, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Assessment of Lecturers by Students</td>
+            <td>Monday, July 29, 2024</td>
+            <td>Friday, August 2, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Second Semester Examinations</td>
+            <td>Monday, August 5, 2024</td>
+            <td>Friday, August 23, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Students Depart</td>
+            <td>Saturday, August 24, 2024</td>
+            <td>Saturday, August 24, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Auditing of Final Year Results</td>
+            <td>Monday, September 16 2024</td>
+            <td>Wednesday, September 18, 2024</td>
+          </tr>
+
+          <tr>
+            <td>College Boards: Final Year Results</td>
+            <td>Wednesday, September 18, 2024</td>
+            <td>Friday, September 20, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Auditing of Continuing Students' Results</td>
+            <td>Monday, September 23, 2024</td>
+            <td>Friday, September 27, 2024</td>
+          </tr>
+
+          <tr>
+            <td>SGS Board: Postgraduate Results, Final Year</td>
+            <td>Tuesday, September 24, 2024</td>
+            <td>Tuesday, September 24, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Academic Board: Final Year Results</td>
+            <td>Wednesday, October 2, 2024</td>
+            <td>Wednesday, October 2, 2024</td>
+          </tr>
+
+          <tr>
+            <td>College Boards: Continuing Students Results</td>
+            <td>Thursday, October 10, 2024</td>
+            <td>Friday, October 11, 2024</td>
+          </tr>
+
+          <tr>
+            <td>SGS Board: Postgraduate Results, Continuing Students</td>
+            <td>Monday, October 14, 2024</td>
+            <td>Monday, October 14, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Staff Break: Academic Staff</td>
+            <td>Friday, October 18, 2024</td>
+            <td>Friday, November 8, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Supplementary Examinations</td>
+            <td>Wednesday, November 13, 2024</td>
+            <td>Friday, November 22, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Mark, Audit, Process Supplementary Examinations Results</td>
+            <td>Monday, November 25, 2024</td>
+            <td>Friday, December 13, 2024</td>
+          </tr>
+
+          <tr>
+            <td>College Boards: Supplementary Results</td>
+            <td>Tuesday, December 17, 2024</td>
+            <td>Tuesday, December17, 2024</td>
+          </tr>
+
+          <tr>
+            <td>Congregation (Regular)</td>
+            <td>Monday, November 25, 2024</td>
+            <td>Saturday, November 30, 2024</td>
+          </tr>
+        </table>
+      </div>
+    </main>
   </body>
-  <script>
-    
-  </script>
+  <script></script>
 </html>
