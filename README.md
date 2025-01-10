@@ -15,6 +15,12 @@ The Computer Science Society (CSS) website is a digital platform designed to pro
 # Technical Requirements
 - Browser: Modern web browsers (e.g., Google Chrome, Safari)
 - Device: Desktop, laptop, tablet, or mobile device
+-  Programming Languages:
+    - HTML5 (Hypertext Markup Language)
+    - CSS3 (Cascading Style Sheets)
+    - JavaScript (ECMAScript)
+
+
 
 # Customization and Configuration
 - CSS: Customize the website's design and layout by modifying the CSS files.
