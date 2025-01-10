@@ -6,7 +6,7 @@ The Computer Science Society (CSS) website is a digital platform designed to pro
 
 # Features
 - Home: A welcoming homepage that showcases announcements and upcoming events for the Computer Science Society.It also includes a footer which has links to the college's website,the school's website,student's portal and an admission Guide page.
-- About Us: A page dedicated to providing information about the Society such as it's history,its executives ,its clubs,its activities and gallery.
+- About Us: A page dedicated to providing information about the Society such as it's history,it's executives ,it's clubs,it's activities and gallery.
 - Calendar: A calendar page that lists upcoming events, meetings, and important dates.
 - Library: A digital library that provides access to resources, tutorials, and study materials related to computer science.
 - Staff Directory: A directory that lists contact information for CSS staff and advisors.
